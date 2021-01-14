@@ -1,0 +1,68 @@
+{
+  "name": "ChessDesktop",
+  "version": "1.1.0",
+  "productName": "Chess Desktop",
+  "description": "Chess Desktop",
+  "main": "app.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder --publish=never --win",
+  },
+  "keywords": [
+    "Electron",
+    "Chess"
+  ],
+  "author": "filStefan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/filStefan/filStefan/issues"
+  },
+  "homepage": "https://github.com/filStefan/filStefan/blob/main/README.md#if-you-want-to-report-an-issue-with-any-of-my-apps-that-are-not-using-public-repos-make-an-issue-here",
+  "files": [
+    "build",
+    "node_modules"
+  ],
+  "devDependencies": {
+    "cross-env": "^7.0.2",
+    "del": "^5.1.0",
+    "electron": "^8.2.5",
+    "electron-builder": "^22.6.1",
+    "electron-packager": "^14.2.1"
+  },
+  "dependencies": {
+    "about-window": "^1.12.1",
+    "electron-localshortcut": "https://github.com/alexkim205/electron-localshortcut/tarball/master",
+    "electron-window-state": "^5.0.1",
+    "file-system": "^2.2.2",
+    "path": "^0.12.7",
+    "url": "^0.11.0"
+  },
+  "build": {
+    "publish": {
+      "provider": "github",
+      "owner": "filStefan",
+      "repo": "Chess-Desktop"
+    },
+    "appId": "com.filstefan.chessdesktop",
+    "productName": "Chess-Desktop",
+    "copyright": "filStefan",
+    "win": {
+      "asar": false,
+      "icon": "static/chess.ico",
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64"
+          ]
+        },
+        {
+          "target": "portable",
+          "arch": [
+            "x64"
+          ]
+        }
+      ]
+    }
+  }
+}
