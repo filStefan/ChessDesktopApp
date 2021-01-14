@@ -6,7 +6,7 @@
   "main": "app.js",
   "scripts": {
     "start": "electron .",
-    "build": "electron-builder --publish=never --win",
+    "build": "electron-builder --publish=never --win"
   },
   "keywords": [
     "Electron",
