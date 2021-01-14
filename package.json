@@ -6,7 +6,7 @@
   "main": "app.js",
   "scripts": {
     "start": "electron .",
-    "build": "electron-builder --publish=never --win"
+    "buildwin": "electron-builder --publish=never --win"
   },
   "keywords": [
     "Electron",
@@ -15,9 +15,9 @@
   "author": "filStefan",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/filStefan/filStefan/issues"
+    "url": "https://github.com/filStefan/ChessDesktopApp/issues"
   },
-  "homepage": "https://github.com/filStefan/filStefan/blob/main/README.md#if-you-want-to-report-an-issue-with-any-of-my-apps-that-are-not-using-public-repos-make-an-issue-here",
+  "homepage": "https://github.com/filStefan/ChessDesktopApp",
   "files": [
     "build",
     "node_modules"
