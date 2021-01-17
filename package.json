@@ -40,12 +40,12 @@
   "build": {
     "publish": {
       "provider": "github",
-      "owner": "filStefan",
+      "owner": "h-edgehogs",
       "repo": "Chess-Desktop"
     },
     "appId": "com.filstefan.chessdesktop",
     "productName": "Chess-Desktop",
-    "copyright": "filStefan",
+    "copyright": "h-edgehogs",
     "win": {
       "asar": false,
       "icon": "static/chess.ico",
